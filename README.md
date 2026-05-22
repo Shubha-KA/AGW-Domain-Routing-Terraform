@@ -16,8 +16,11 @@ This project demonstrates a production-style Azure infrastructure deployment usi
 - Automated application deployment
 
 ---
+# Architecture Diagram
 
-# Architecture
+![Architecture Diagram](./domain-based-routing-architecture.png)
+
+### Traffic Flow
 
 ```text
                           Internet
