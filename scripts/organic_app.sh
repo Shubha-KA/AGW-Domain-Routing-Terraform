@@ -7,7 +7,7 @@ exec > >(tee /var/log/bootstrap.log) 2>&1
 APP_USER="shubha2001"
 APP_HOME="/home/$APP_USER"
 APP_DIR="$APP_HOME/organic-ghee"
-APP_PORT="3000"
+APP_PORT="5656"
 REPO_URL="https://github.com/Msocial123/organic-ghee.git"
 MONGO_DB_NAME="organicghee"
 

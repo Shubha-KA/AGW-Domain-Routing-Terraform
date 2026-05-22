@@ -57,6 +57,8 @@ resource "azurerm_application_gateway" "appgw" {
     protocol              = "Http"
     request_timeout       = 30
     probe_name            = "health-probe"
+
+    pick_host_name_from_backend_address = true
   }
 
   probe {
@@ -66,7 +68,7 @@ resource "azurerm_application_gateway" "appgw" {
     interval                                  = 30
     timeout                                   = 30
     unhealthy_threshold                       = 3
-    pick_host_name_from_backend_http_settings = false
+    pick_host_name_from_backend_http_settings = true
   }
 
   http_listener {

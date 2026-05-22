@@ -65,7 +65,7 @@ resource "azurerm_network_security_group" "app_nsg" {
     protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "80"
-    source_address_prefix      = var.agw_subnet_prefix
+    source_address_prefix      = var.agw_subnet_prefix[0]
     destination_address_prefix = "*"
   }
 }

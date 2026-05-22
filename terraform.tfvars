@@ -14,8 +14,8 @@ app_nsg_name = "app-nsg"
 nic1_name = "organic-nic"
 nic2_name = "fitness-nic"
 
-vm_size         = "Standard_B2s"
-admin_username  = "azureuser"
+vm_size         = "Standard_D2ls_v5"
+admin_username  = "shubha2001"
 admin_password  = "Shubha@azure123"
 
 nat_pip_name     = "nat-pip"

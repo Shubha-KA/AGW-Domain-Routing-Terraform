@@ -16,10 +16,6 @@ variable "nic2_name" {}
 
 variable "vm_size" {}
 
-variable "vms" {
-  type = map(string)
-}
-
 variable "admin_username" {}
 variable "admin_password" {}
 
